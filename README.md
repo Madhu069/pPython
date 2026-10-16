@@ -19,12 +19,20 @@
 
 # Advance: Decorators, Generators, Iterators,  Meta programming
 
-# Problem 1:Age Group Categorization
+# Problem 1: Age Group Categorization
 
-# Problem 2 :Movie Ticket Pricing
+# Problem 2: Movie Ticket Pricing
 
-# Problem 3:Grade calculator
+# Problem 3: Grade calculator
 
-# Problem 4:  Fruit Ripeness Checker
+# Problem 4: Fruit Ripeness Checker
 
 # Problem 5: Weather Activity Suggestion
+
+# Problem 6: Tranportation mode selector
+
+# Problem 7: Coffee order program
+
+# Problem 8:Password Checker
+
+# Problem 9:Leap year checker
