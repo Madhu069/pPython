@@ -19,20 +19,38 @@
 
 # Advance: Decorators, Generators, Iterators,  Meta programming
 
+    # Conditional operators
 # Problem 1: Age Group Categorization
-
 # Problem 2: Movie Ticket Pricing
-
 # Problem 3: Grade calculator
-
 # Problem 4: Fruit Ripeness Checker
-
 # Problem 5: Weather Activity Suggestion
-
 # Problem 6: Tranportation mode selector
-
 # Problem 7: Coffee order program
-
 # Problem 8:Password Checker
-
 # Problem 9:Leap year checker
+# Problem 10:Pet food selector
+
+    # loops
+# Problem1:
+# Problem2:
+# Problem3:
+# Problem4:
+# Problem5:
+# Problem6:
+# Problem7:
+# Problem8:
+# Problem9:
+# Problem10:
+
+    # functions
+# Problem1:
+# Problem2:
+# Problem3:
+# Problem4:
+# Problem5:
+# Problem6:
+# Problem7:
+# Problem8:
+# Problem9:
+# Problem10:
