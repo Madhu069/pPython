@@ -54,3 +54,6 @@
 # Problem8:
 # Problem9:
 # Problem10:
+
+# Scopes
+# Decoraters
