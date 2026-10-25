@@ -16,8 +16,12 @@ def save_data_helper(videos):
 
 
 def list_all_videos(videos):
+    print("\n")
+    print("*"* 70)
     for index,  video in enumerate(videos, start=1):
         print(f"{index}.{video['name']},Duration:{video['time']} ")
+    print("\n")
+    print("*"* 70)
 
 
 def add_video(videos):
@@ -28,21 +32,36 @@ def add_video(videos):
 
 
 def update_video(videos):
-    pass
+    list_all_videos(videos)
+    index = int (input("Enter the video number to Update"))
+    if 1 <= index <= len(videos):
+        name = input("Enter the new video name")
+        time = input("Enter the new video time")
+        videos[index-1] = {'name': name , 'time': time}
+        save_data_helper(videos)
+    else:
+        print("Invalid index selected")
 
 def delete_video(videos):
-    pass
+    list_all_videos(videos)
+    index = int(input("Enter the video to be deleted"))
+
+    if 1<= index <=  len(videos):
+        del videos[index-1]
+        save_data_helper(videos)
+    else:
+        print("Invalid video index selected ")
 
 def main():
     videos = load_data()
 
     while True:
         print("\nYouTube Manager | Choose an option")
-        print("1. List all favourite videos")
-        print("2. Add a YouTube video")
-        print("3. Update a YouTube video details")
-        print("4. Delete a YouTube video")
-        print("5. Exit the app")
+        print("1. List all favourite videos: ")
+        print("2. Add a YouTube video: ")
+        print("3. Update a YouTube video details: ")
+        print("4. Delete a YouTube video: ")
+        print("5. Exit the app: ")
 
         choice = input("Enter your choice: ")
 
