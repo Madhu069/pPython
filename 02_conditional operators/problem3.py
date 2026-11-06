@@ -1,6 +1,6 @@
 # Grade calculator
 
-marks = 180
+marks = 90
 
 if marks >= 101:
     print("Invalid marks. Please enter a value between 0 and 100.")

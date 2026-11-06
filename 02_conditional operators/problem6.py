@@ -3,9 +3,10 @@
 Dist = 16
 
 if Dist <3:
-    print("Walk")
-
+    Transpotation = "Walk"
 elif Dist <=15:
-    print("Bike ")
+    Transpotation = "Bike "
 else:
-    print("car")
+    Transpotation = "car"
+
+print("Take a ",Transpotation)
